@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header{
+    background: #3b5998;
+    padding: 8px 0;
+    
+}
+
+.logo {
+    float: left;
+    color:white;
+    margin-top: 17px;
+}
+
+.logo h2 {
+    font-size: 40px;
+}
+
+form.form-login{
+    float: right;
+    margin-top:5px;
+}
+
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element p {
+    color: white;
+    font-size: 14px;
+}
+
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 3px;
+    border: 0;
+    height: 20px;
+    padding-left: 3px;
+}
+
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    background: #5070b5;
+    color: white;
+    padding: 3px 5px
+}
+
+.form-element input[type=submit]:hover{
+    background: #3b5998;
+    }
+
+section.main{
+    background: linear-gradient(white,#D3D8E8);
+    padding: 40px 0;
+}
+
+.img-pessoas{
+    float: left;
+    width: 60%;
+    
+}
+
+.img-pessoas img{
+    max-width: 
+}
+.img-pessoas h3{
+    width: 70%;
+    margin-bottom: 15px;
+    color: #1d325e;
+    line-height: 25px
+}
+
+.abrir-conta {
+    width:40%;
+    float: left;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 40px;
+    
+}
+
+.abrir-conta h3{
+    color: rgb(30,30,30);
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 8px;
+    
+}
+
+form.criar-conta{
+    margin-top: 10px
+}
+
+.w50{
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+
+.w100{
+    float: left;
+    width:100%;
+    padding: 0 5px;
+}
+
+form.criar-conta input{
+    width: 100%;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+    height: 40px;
+    margin-top: 8px;
+    border: 1px solid #b6c0e3;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+form.criar-conta input[type=submit]{
+    height: 40px;
+    color: white;
+    background: linear-gradient(#67ae55,#578843);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    max-width: 200px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+form .w100>h2 {
+    color: #90949c;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.w100 input[type=date]{
+    height: 30px;
+    width: 40%;
+    margin-top: 5px;
+    border: 1px solid #b6c0e3;
+}
+
+.input-radio{
+    float: left;
+    width: 33.3%
+    
+    
+    
+}
+
+.input-radio h2{
+    display: inline-block;
+    color: #1d2129;
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 3px;  
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.w100 p {
+    font-size: 11px;
+    color: #90949c;
+    margin: 8px 0 8px 0;
+    text-align: left;    
+}
+
+
+
+.criar-page p{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.criar-page a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section.linguas{
+    padding: 30px 0;
+    background: white;
+}
+
+section.linguas a {
+    color: #385898;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+section.linguas a.selected-lingua{
+        color: #737373;
+}
+
+section.linguas .center{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+section.linguas input[type=submit]{
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+    border: 1px solid;
+    width: 25px;
+    height: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14p ;
+    padding: 0 8px;
+    cursor: pointer;
+    
+}
+
+
+
+.menu-footer .center {
+    border: 0 !important;
+    margin-top: 4px;
+}
+
+.menu-footer p {
+    padding: 28px 0 20px 0;
+    color: #737373;
+    font-size: 11px;
+    
+}
+
+.menu-footer .center a {
+    padding-right: 15px;
+    color: #385898;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: -0.2px;   
+}
+
+@media screen and (max-width:768px){
+    
+    .logo{
+        float: none;
+        width:100%;
+        text-align: center;
+        margin: 5px 0 5px 0;
+            }
+    form.form-login{
+        display: inline-block;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+                }
+    
+    .form-login .form-element{
+    display: block;
+    margin: 10px 0;
+            }
+
+    .form-element p {
+        color: white;
+        font-size: 14px;
+                }
+
+
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 3px;
+        border: 0;
+        height: 30px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 400px;
+          }
+    .img-pessoas{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+     
+    .img-pessoas > img {
+        display: none;
+    }
+    .img-pessoas > h3 {
+        width: 100%;
+        text-align: center   
+            }
+    
+    .abrir-conta {
+        width: 100%;
+            }      
+}
+    
